@@ -1,0 +1,22 @@
+GET http://localhost:3003/songs
+###
+
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+    "id": "s007",
+    "name": "Lithium",
+    "band_id": "b001"
+}
+###
+
+PUT http://localhost:3003/songs/s006
+Content-Type: application/json
+
+{
+    "id": "s006",
+    "name": "My Immortal 123",
+    "band_id": "b001"
+}
+###
